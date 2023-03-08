@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Karibu</h1>
+    <form action="" method="post">
+        {% csrf_token %}
+        <input required name="phone" placeholder="Phone" type="text"><br><br>
+        <input required name="amount" placeholder="Amount" type="text"><br><br>
+        <input value="Pay" type="submit">
+    </form>
+</body>
+</html>
